@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sem_editext_dialog"
+        android:layout_gravity="center_horizontal"
+        android:hint="enter semester" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/sem_enter_dialog_btn"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:addStatesFromChildren="false"
+        android:fadingEdge="horizontal"
+        android:fadeScrollbars="true"
+        android:scrollIndicators="right"
+        android:entries="@array/semester_option"
+        android:prompt="@string/semester_spinner_prompt"
+        android:verticalScrollbarPosition="defaultPosition" />
+</LinearLayout>

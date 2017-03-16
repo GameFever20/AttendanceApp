@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.aisha.wifion.Main2Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainactivity2_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainactivity2_toolbar" />
+
+
+    <Button
+        android:id="@+id/saveEditData"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="saveEditTextData"
+        android:text="save" />
+
+    <Button
+        android:id="@+id/storeRegistered2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:onClick="storeRegisteredStudent2"
+        android:text="store" />
+
+
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/storeRegistered2"
+        android:hint="Your Name" />
+
+    <EditText
+        android:id="@+id/roll_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/name_editText"
+        android:layout_centerHorizontal="true"
+        android:hint="Your Rollno" />
+
+    <EditText
+        android:id="@+id/sem_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name_editText"
+        android:layout_alignParentEnd="true"
+        android:hint="Your sem" />
+
+
+</RelativeLayout>

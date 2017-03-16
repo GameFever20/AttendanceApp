@@ -1,0 +1,7 @@
+#Sat Feb 04 16:46:19 IST 2017
+base.0=E\:\\college project\\WifiOn\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_99f5498cabab0e6bda32a14fe41ddaec60806e02
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\college project\\WifiOn\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_731f49551bd712f128003a43c29b1b0aa5cbdd37\\classes.dex
+base.1=E\:\\college project\\WifiOn\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_731f49551bd712f128003a43c29b1b0aa5cbdd37
+file.0=E\:\\college project\\WifiOn\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_99f5498cabab0e6bda32a14fe41ddaec60806e02\\classes.dex

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    tools:context="com.example.aisha.wifion.MainActivity"
+    android:id="@+id/tv">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainactivity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clients available or not!"
+        android:visibility="gone"
+        android:id="@+id/textView" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan"
+        android:visibility="gone"
+        android:id="@+id/buttonscan"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_green_light"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="store"
+        android:visibility="gone"
+        android:id="@+id/store_db"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="addlist"
+        android:id="@+id/date_search"
+        android:onClick="dateSearch"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonscan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name Of Student"
+        android:visibility="gone"
+        android:id="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+
+    <!--
+
+    <Button
+        android:background="#f13f1b"
+        android:textColor="#fdfffd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register_btn"
+        android:onClick="registerStudent"
+        android:layout_below="@+id/retrievelist"
+        android:layout_toRightOf="@+id/b4"
+        android:layout_marginLeft="9dp"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="retvieve"
+        android:id="@+id/retrieve_btn"
+        android:onClick="retrieve_btn"
+        android:background="#f13f1b"
+        android:textColor="#fdfffd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true" />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive"
+        android:background="#f13f1b"
+        android:textColor="#fdfffd"
+        android:id="@+id/receive"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+         />
+         -->
+    <Button
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:textAlignment="center"
+        android:textSize="@dimen/large_button_fontsize"
+        android:background="#f13f1b"
+        android:textColor="#fdfffd"
+        android:id="@+id/b4"
+        android:onClick="nameofRegisterStudent"
+        android:layout_alignStart="@+id/buttonscan"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retrievelist"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:layout_below="@id/mainactivity_toolbar"
+        android:layout_above="@id/b4"
+         />
+
+
+</RelativeLayout>

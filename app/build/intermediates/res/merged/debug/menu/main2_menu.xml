@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_refresh2"
+        android:title="refresh"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_sem_change2"
+        android:title="Change Semester"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/mainactivity_toolbar_switch2"
+        app:showAsAction="always"
+        android:title=""
+        app:actionLayout="@layout/mainactivity_itemmenu"
+        />
+
+</menu>

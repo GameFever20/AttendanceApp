@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:5:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:11:22-64
+application
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:13:5-32:19
+MERGED from [com.android.support:design:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:17:9-35
+	android:allowBackup
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:18:9-47
+activity#com.example.aisha.wifion.MainActivity
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:21:9-59
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.example.aisha.wifion.Main2Activity
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.example.aisha.wifion.RetrieveActivity
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:23:9-54
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:23:19-51
+activity#com.example.aisha.wifion.StartActivity
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:24:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.aisha.wifion.RetrieveNewActivity
+ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:31:9-66
+	android:name
+		ADDED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml:31:19-54
+uses-sdk
+INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.1] E:\college project\WifiOn\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml
+		INJECTED from E:\college project\WifiOn\app\src\main\AndroidManifest.xml

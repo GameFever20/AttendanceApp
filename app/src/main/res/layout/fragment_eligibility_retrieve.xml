@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aisha.wifion.EligibilityRetrieveFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Retrieve By Eligibility"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_black"
+                    android:textSize="@dimen/medium_text_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From Date  :"
+                        android:textColor="@color/dark_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Select date "
+                        android:id="@+id/eligibilityfragment_fromdate_textview"
+                        android:textColor="@color/change_color"
+                        android:textSize="@dimen/medium_text_size" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To Date       :"
+                        android:textColor="@color/dark_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Select date "
+                        android:id="@+id/eligibilityfragment_todate_textview"
+
+                        android:textColor="@color/change_color"
+                        android:textSize="@dimen/medium_text_size" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="15dp"
+                        android:text="Count           :"
+                        android:textColor="@color/dark_black"
+                        android:textSize="@dimen/medium_text_size" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Count Number"
+                            android:inputType="number"
+                            android:id="@+id/eligibilityfragment_count_edittext"
+
+                            android:textColorHint="@color/change_color"
+                            android:imeOptions="actionSearch"
+                            />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/eligibilityfragment_listview"
+
+
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

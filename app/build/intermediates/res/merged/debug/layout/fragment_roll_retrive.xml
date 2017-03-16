@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aisha.wifion.RollRetriveFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/rollfragment_info_cardview"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Retrieve By Roll"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_black"
+                    android:textSize="@dimen/heading_text_size"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginTop="10dp"
+                        android:text="0101IT"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/dark_black"
+                        android:textSize="@dimen/medium_text_size"
+
+
+                        />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+
+                        <EditText
+                            android:id="@+id/rollfragment_roll_edittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Roll Number"
+                            android:inputType="number"
+                            android:textColorHint="@color/change_color"
+
+                            android:imeOptions="actionSearch"
+                            />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/rollfragment_ok_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="ok"
+                        android:textColor="@color/dark_black"
+
+                        android:textSize="@dimen/medium_text_size" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/rollfragment_name_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name        :"
+                    android:textColor="@color/dark_black"
+                    android:textSize="@dimen/medium_text_size"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rollfragment_button"
+            />
+
+
+        <ListView
+            android:id="@+id/rollfragment_listview"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rollfragment_info_cardview"
+            android:layout_above="@+id/rollfragment_button"
+            android:layout_marginBottom="30dp"
+            >
+
+
+        </ListView>
+    </RelativeLayout>
+
+
+</LinearLayout>

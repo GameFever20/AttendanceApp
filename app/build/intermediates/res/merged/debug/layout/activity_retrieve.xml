@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aisha.wifion.RetrieveActivity">
+
+
+
+
+    <Button
+        android:id="@+id/nameSearch_retrieve_btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="searchByEligiblityRetrieve_method"
+        android:text="Eligiblity" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nameSearch_retrieve_btn"
+        android:id="@+id/roll_retrive_edittext"
+        android:hint="Enter Roll Number"
+        />
+
+    <ListView
+        android:id="@+id/retrieve_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/roll_retrive_edittext" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rollno"
+        android:id="@+id/rollSearch_retrieve_btn"
+        android:onClick="searchByRoll"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:id="@+id/date_retrieve_bt"
+        android:onClick="searchByDate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

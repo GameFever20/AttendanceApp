@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="From date in format 'YYYY-MM-DD'"
+        android:id="@+id/from_ed_retrieve"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:hint="To date in format 'YYYY-MM-DD'"
+        android:layout_below="@id/from_ed_retrieve"
+        android:id="@+id/to_ed_retrieve"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignEnd="@+id/from_ed_retrieve"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/count_ed_eligiblity"
+        android:layout_below="@id/to_ed_retrieve"
+
+        android:hint="Enter count for eligiblity 'eg. 15' "
+
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/ok_btn_dialog_retrieve"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/sem_retrieval_dialog_retrievalclass_editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter sem !"
+        android:id="@+id/sem_retrieval_dialog_retrievalclass_editText"
+        android:layout_below="@+id/count_ed_eligiblity"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
